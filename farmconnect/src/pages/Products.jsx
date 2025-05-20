@@ -16,11 +16,76 @@ const Products = () => {
           {
             id: 1,
             name: 'Fresh Tomatoes',
+            price: 500,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'FarmFresh Ltd',
+            category: 'vegetables'
+          },
+          {
+            id: 2,
+            name: 'Fresh pineapples',
+            price: 3000,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Mananasi Ltd',
+            category: 'fruits'
+          },{
+            id: 3,
+            name: 'Fresh meat',
+            price: 5000,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Kichinjio Ltd',
+            category: 'livestock'
+          },{
+            id: 4,
+            name: 'Fresh onions',
             price: 5000,
             image: 'https://example.com/tomatoes.jpg',
             location: 'Nairobi',
             seller: 'FarmFresh Ltd',
             category: 'vegetables'
+          },{
+            id: 5,
+            name: 'Fresh potatoes',
+            price: 1000,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Kiwaru Ltd',
+            category: 'vegetables'
+          },{
+            id: 6,
+            name: 'Fresh maize',
+            price: 7500,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Mahindi Ltd',
+            category: 'grains'
+          },{
+            id: 7,
+            name: 'Fresh eggs',
+            price: 480,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'MayaiFresh Ltd',
+            category: 'livestock'
+          },{
+            id: 8,
+            name: 'Fresh milk',
+            price: 50,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Ngombe Ltd',
+            category: 'livestock'
+          },{
+            id: 9,
+            name: 'Fresh strawberries',
+            price: 250,
+            image: 'https://example.com/tomatoes.jpg',
+            location: 'Nairobi',
+            seller: 'Farmesh Ltd',
+            category: 'fruits'
           },
           // More products...
         ];
